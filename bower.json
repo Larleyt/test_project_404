@@ -1,0 +1,22 @@
+{
+  "name": "test_project_404",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Larleyt/test_project_404",
+  "authors": [
+    "Larleyt <szazizov@gmail.com>"
+  ],
+  "description": "bower packages",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "react": "~0.13.3"
+  }
+}
