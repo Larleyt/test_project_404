@@ -1,2 +1,2 @@
 # test_project_404
-This is test project for 404 Group.
+This is a test project for 404 Group.
