@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from rest_framework.urlpatterns import format_suffix_patterns
 
 from apps.accounts import urls as accounts_urls
 from apps.feed import urls as feed_urls
@@ -25,3 +26,4 @@ urlpatterns = [
     url(r'^accounts/', include(accounts_urls)),
 
 ]
+
